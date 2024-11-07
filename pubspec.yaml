@@ -1,0 +1,42 @@
+name: munich
+description:
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  #c
+  cupertino_icons: ^1.0.8
+  #d
+  dio: 5.7.0
+  #f
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.1.6
+  #g
+  get_it: 8.0.1
+  go_router: 14.3.0
+  #j
+  json_annotation: 4.9.0
+  #r
+  realm: 20.0.0
+  retrofit: 4.4.1
+
+dev_dependencies:
+  #b
+  build_runner: 2.4.13
+  #f
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  #j
+  json_serializable: 6.8.0
+  #r
+  retrofit_generator: 9.1.4
+
+flutter:
+  uses-material-design: true
